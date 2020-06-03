@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <ImageView
+
+          android:layout_gravity="center"
+          android:src="@drawable/handsicon"
+          android:layout_width="60dp"
+          android:layout_height="60dp">
+
+      </ImageView>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:fontFamily="@font/calibri"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="We request you to all Enjoy users, share with your family and make successfull of Enjoee."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:fontFamily="@font/calibri"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Welcome to Enjoee Family."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <Button
+            android:id="@+id/done"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="Share"
+            android:textColor="@color/white"
+            android:fontFamily="@font/calibri"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+
+        <TextView
+            android:id="@+id/cancel"
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:fontFamily="@font/calibri"
+            android:textColor="@color/red"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+</RelativeLayout>
